@@ -9,20 +9,20 @@ build/
 *-local.*
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+src/front/node_modules
+src/front/.pnp
+src/front/.pnp.js
+src/front/.yarn/install-state.gz
 
 # testing
-/coverage
+src/front/coverage
 
 # next.js
-/.next/
-/out/
+src/front/.next/
+src/front/out/
 
 # production
-/build
+src/front/build
 
 # misc
 .DS_Store
@@ -46,11 +46,11 @@ yarn-error.log*
 .env*.local
 
 # vercel
-.vercel
+src/front/.vercel
 
 # typescript
-*.tsbuildinfo
-next-env.d.ts
+src/front/*.tsbuildinfo
+src/front/next-env.d.ts
 
 ### VS Code ###
-.vscode/
+src/front/.vscode/
